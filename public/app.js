@@ -5,7 +5,7 @@ const DEFAULT_WHATSAPP_NUMBER = "5491164499481";
 const sb = window.supabase?.createClient ? window.supabase.createClient(SUPABASE_URL, SUPABASE_PUBLISHABLE_KEY) : null;
 
 const burgerBtn = document.getElementById("burgerBtn");
-const mobileMenu = document.getElementById("mobileMenu");
+const mobileMenu = document.getElementById("mobileMenu"); 
 const topWhatsAppBtn = document.getElementById("topWhatsAppBtn");
 const mobileWhatsAppBtn = document.getElementById("mobileWhatsAppBtn");
 const heroWhatsAppBtn = document.getElementById("heroWhatsAppBtn");
